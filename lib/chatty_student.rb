@@ -5,6 +5,6 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    super.loop[10]
+    super(10)
   end
 end
